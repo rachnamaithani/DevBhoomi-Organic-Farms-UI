@@ -1,0 +1,763 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	font-family: 'sans-serif','Arial';
+}
+/*head-section-----navbar,title,social links */
+.head-section{
+	height: 80px;
+	background-color:black;
+	color: white;
+}
+.head-nav-bar{
+	width: 80%;
+	margin: 0px auto;
+	position:relative;
+}
+.head-nav-subbox{
+	display: inline-block;
+	line-height: 80px;
+}
+.head-nav-subbox li{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.head-nav-subbox li:hover, .head-nav-topic:hover{
+	cursor: pointer;
+}
+.head-nav-topic {
+	display:inline-block;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: "Times New Roman"!important;
+	position: absolute;
+	left: 550px;
+	line-height: 80px;
+}
+.head-socials{
+	display:inline-block;
+	position: absolute;
+	right: 10px;
+	margin: 30px;
+	color: white;
+}
+.head-socials a{
+	margin: 5px;
+	color: white;
+}
+	
+/*section 1---->Honey template----->for the infinite love of pure honey */
+.honey-banner-section{
+	background-image:url('../images/honey_main_image.jpg');
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: cover;
+}	
+.honey-banner-subsection{
+	width: 75%;
+	margin: 0px auto;
+	height: 100%;
+	position: relative;
+}
+.honey-banner-mainheading{
+	color:#e6d6b8;
+	font-size:45px;
+	float: right;
+	width: 600px;
+	line-height: 1.5;
+	margin-top: 15px;
+	word-spacing: normal;
+	letter-spacing: normal;
+}
+.hbm h1
+{	font-family:'Nova Square','sans-serif';
+	float: right;
+}
+.honey-banner-subheading{
+	position: absolute;
+	top: 330px;
+	right: 0px;
+}
+.hbs h2{
+	float: right;
+	color: #F1C36D;
+	font-size: 24px;
+}
+/*section 2-------->3 bee cards*/
+.bee-card-section{
+	position:absolute;
+	top: 542px;
+	padding-bottom: 20px;
+}
+.bee-card-subsection{
+	width: 80%; 
+	height: 390px;
+	margin: 0px auto;
+}
+.bee-card{
+	width: 25%;
+	display: inline-block;
+	height: 300px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	margin: 0px 15px;
+	padding: 30px;
+	float: left;
+	text-align: center;
+	position:relative;
+}
+.bee-card h3{
+	font-weight: 700;
+	margin: 15px 0px;
+}
+.bee-card p{
+	color: #7A7A7A;
+	margin: 15px 0px;
+	word-spacing: 2px;
+}
+.bee-card-btn{
+	background-color: #F1C36D;
+	width: 100px;
+	padding: 10px;
+	height: 20px;
+	border-radius: 15px;
+	position: absolute;
+	margin-top: 15px;
+	left: 120px;
+}
+.bee-card-btn a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+/*section 3 ---------> About Us */
+
+.about-us-section{
+	margin-top: 18%;
+	background-color: #dadada;
+	height: 600px;
+	padding-top: 100px;
+}
+.about-us-subsection{
+	width: 75%;
+	margin: auto;
+	height: 600px;
+}
+.about-us-leftpart{
+	background-image: url("../images/Honey_jars.jpg");
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.au-experiencebox{
+	background-color:white;
+	width: 220px;
+	height: 110px;
+	border-radius: 8px;
+	text-align: center;
+	margin: 10px;
+}
+.au-experiencebox h1{
+	font-size: 70px;
+	font-weight: bold;
+	color: #a95c00;
+}
+.au-experiencebox p{
+	font-size:20px;
+	color:grey;
+}
+.about-us-rightpart{
+	width: 45%;
+	margin: 0px 20px;
+	float: left;
+	display: inline-block;
+}
+.about-us-rightpart h3{
+	color: #fdab12;
+	margin: 5px;
+}
+.about-us-rightpart h2{
+	margin: 10px 0px;
+	font-size: 35px;
+}
+.about-us-rightpart p{
+	color: grey;
+	line-height: 1.5;
+	font-size: 17px;
+}
+.au-right-subbox{
+	margin-top: 20px;
+}
+.au-subbox-leftpart{
+	width: 50%;
+	float: left;
+}
+.about-us-btn{
+	background-color: #F1C36D;
+	width: 100px;
+	padding: 10px;
+	height: 20px;
+	border-radius: 15px;
+	text-align: center;
+}
+.about-us-btn a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.au-subbox-rightpart{
+	float: right;
+}
+
+/*section--4---------> Natural Honey Info Section*/
+.natural-honey-section{
+	margin-bottom: 30px;
+}
+.natural-honey-box{
+	margin-top: 40px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	height: 600px;
+}
+.natural-honey-subsection{
+	width: 50%;
+	color: white;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+.natural-honey-section h4{
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+.natural-honey-section h1{
+	font-size: 55px;
+	margin: 30px 0;
+}
+.natural-honey-section p{
+	margin: 30px 0;
+}
+.natural-honey-btn{
+	background-color: #F1C36D;
+	padding: 10px;
+	border-radius: 15px;
+}
+.natural-honey-btn a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;	
+	text-align: center;
+}
+
+/*section--5---------> Honey Product Title */
+.our-prod-section{
+	margin-bottom: 20px;
+}
+.our-prod-subsection{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	padding: 30px 0px;
+}
+.our-prod-subsection h2{
+	color:#fdab12;
+	margin-bottom: 15px;
+}
+.our-prod-subsection h1{
+	margin-bottom: 15px;
+	font-size: 30px;
+	
+}
+.our-prod-subsection p{
+	margin-bottom: 15px;
+	color: grey;
+}
+/*section--6--------> 2 types Honey with images---*/
+.prod-variety-section{
+	margin-bottom: 30px;
+}
+.prod-variety-subsection{
+	margin: auto;
+	width: 75%;
+	height: 500px;
+	position: relative;
+}
+.prod-variety-leftpart{
+	width: 30%;
+	background-color: #d8d3d3;
+	background-image:url('../images/leave-2.jpg');
+	background-size: cover;
+	height: 500px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+}
+.prod-variety-leftsub-part{
+	position: absolute;
+	bottom: 10px;
+	height: 300px;
+	margin-left: 10px;	
+}
+.prod-variety-leftsub-part h1{
+	font-size: 45px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.prod-variety-leftsub-part p{
+	margin-bottom: 40px;
+	color: #deb920;
+}
+.prod-variety-btnbox{
+	text-align:center;
+}
+.prod-variety-btn{
+	background-color: #F1C36D;
+	border-radius: 20px;	
+	padding: 15px 20px;
+}
+.prod-variety-btn a{
+	font-size: 22px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;	
+}
+.prod-variety-rightpart{
+	display: inline-block;
+	height: 500px;
+	width: 66%;
+	float: left;
+	margin: 30px 10px;
+}
+.prod-variety-rightpart1{
+	display: inline-block;
+	border: 1px solid rgb(33 31 31 / 13%);
+	width:48%;
+	margin-right: 12px;
+	float: left;
+}
+.prod-variety-rightpart1 h4{
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	margin: 15px;
+}
+.prod-variety-rightpart1 p{
+	font-size: 17px;
+	margin: 15px;
+	line-height: 25px;
+	word-spacing: 2px;
+}
+/*section 7-------------->why choose us section------------------*/
+
+.chooseus-section{
+	background-color: black;
+	height: 850px;
+}
+.chooseus-sub-section{
+	width: 75%;
+	margin: auto;
+	height: 850px;
+}
+.chooseus-sub-leftsection{
+	display: inline-block;
+	width: 43%;
+	border-radius: 10px;
+	background-color: #FCF9F9;
+	padding: 35px;
+	float: left;
+}
+.chooseus-sub-leftsection h4{
+	color: #eeb958;
+	margin-bottom: 20px;
+}
+.chooseus-sub-leftsection>h1{
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+.chooseus-sub-leftsection>p{
+	color: #eeb958;
+	font-size: 18px;
+}
+.cu-section{
+	
+}
+.cu-icon{
+}
+.cu-section h1{
+	margin-bottom: 20px;
+}
+.cu-section p{ 
+	line-height: 1.5;
+	font-size: 18px;
+	color: #7a6f6f;
+}
+.chooseus-sub-rightsection{
+	width: 50%;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	height: 87%;
+}
+
+/* section--8---------> honey benefits section*/
+.honey-benefits-section{
+	height: 400px;
+	margin-top: 8%;
+	padding: 40px;
+}
+.honey-benefits-subsection{
+	width: 80%;
+	margin: auto;
+	height: 90%;
+}
+.honey-benefits-leftpart{
+	width: 25%;
+	float: left;
+}
+.honey-benefits-leftpart h4{
+	color: #F5C500;
+	margin: 20px 0px;
+}
+.honey-benefits-leftpart h1{
+	font-size: 32px;
+	margin: 20px 0px;
+}
+.honey-benefits-leftpart p{
+	margin: 20px 0px;
+	color: #7a6f6f;
+}
+.honey-benefits-middlepart{
+	width: 35%;
+	float: left;
+}
+.honey-benefits-rightpart{
+	width: 35%;
+	padding-left: 10px;
+	float: left;
+}
+.honey-nutrition{
+	height: 35px;
+	width: 100%;
+	margin: 20px 0px;
+}
+.benefits-percentage{
+	height: 15px;
+	background-color: #d9d9d9; 
+}
+.percent{
+	height: 100%;
+	background-color: #F5C500;
+	color: white;
+}
+.percent1{
+	width: 90%;
+}
+.percent2{
+	width: 80%;
+}
+.percent3{
+	width: 70%;
+}
+.percent4{
+	width: 85%;
+}
+.percent5{
+	width: 75%;
+}
+.percent span{
+	float: right; 
+	padding-right: 4px;
+}
+/*section ---------->9 promotion section*/
+
+.promotion-section{
+	background-color: black;
+}
+.promotion-subsection{
+	width: 75%;
+	margin: auto;
+	padding: 5% 0;
+	color: white;
+	text-align: center;
+}
+.promotion-subsection h3{
+	margin: 4% 0px;
+}
+.promotion-subsection h1{
+	font-size: 65px;
+	letter-spacing: -2px;
+	font-weight: 900;
+	margin-bottom: 4%;
+}
+.promotion-subsection p{
+	margin-bottom: 5%;
+}
+.promotion-btn{
+	background-color: #F1C36D;
+	padding: 10px;
+	border-radius: 15px;
+}
+.promotion-btn a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;	
+	text-align: center;
+}
+
+/*section 10 ------->testimonial section*/
+
+.testimonial-section{
+	height: 550px;
+	background-image: url("../images/World-Map-a.png");	
+}
+.testimanial-part1{
+}
+.testimonial-subpart1{
+	width:30%;
+	margin: auto;
+	padding: 50px 0px;
+	text-align: center;
+}
+.testimonial-subpart1 h2{
+	color: #F5C500;
+	margin: 4% 0px;
+}
+.testimonial-subpart1 h1{
+	font-size: 30px;
+	margin:4% 0px;
+}
+.testimonial-subpart1 p{
+	line-height: 1.5;
+	font-size: 18px;
+}
+.testimonial-part2{
+}
+.testimonial-subpart2{
+	width: 75%;
+	margin: auto;
+}
+.client-review{
+	width: 30%;
+	float: left;
+	padding: 10px;
+}
+.client-review p{
+	line-height: 1.5;
+	font-weight: bold;
+	text-align: center;
+}
+.client-box{
+	width: 75%;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+}
+.client-imgbox{
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+.client-namebox{
+	float: left;
+	display: inline-block;
+}
+.client-namebox p{
+	font-size: 14px;
+	font-family: 'Times New Roman';
+	line-height: 1.5;
+	color: #928d87;
+}
+.client-imgbox img{
+	border-radius: 50%;
+	display: inline-block;
+}
+/*section 11--------->contact us form */
+.contact-us-section{
+	height: 720px;
+	background-color:#e6e6e6;
+	padding-top: 30px;
+}
+.contact-us-subsection{
+	width: 75%;
+	height: 600px;
+	margin: auto;
+}
+.contact-us-our-location{
+	width: 40%;
+	height: 600px;
+	background-color: #bcbcbc;
+	display: inline-block;
+	float: left;
+}
+.mapouter{
+	position:relative;
+	text-align:right;
+	width:100%;
+	height:600px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:100%;
+	height:600px;
+}
+.gmap_iframe {
+	width: 100%!important;
+	height:600px!important;
+	}
+.contact-us-form{
+	width: 52%;
+	height: 600px;
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+}
+	
+.contact-us-form h4 ,.contact-us-form p{
+	margin: 20px 0px;
+}
+.contact-us-form h1{
+	font-size: 30px;
+	margin: 20px 0px;
+}
+.contact-us-form p{
+	color: grey;
+}
+user-form{
+	padding-right: 15px;
+}
+.username,.user-number{
+	width: 230px;
+	height: 35px;
+	margin: 12px 0px;
+	padding-left: 10px;
+	font-size: 16px;
+	border: 1px solid #cab5b5;
+}
+.user-number{
+	float: right;
+}
+.user-emial,.user-subject{
+	width: 100%;
+	height: 35px;
+	margin: 12px 0px;
+	padding-left: 10px;
+	font-size: 16px;
+	border: 1px solid #cab5b5;
+}
+textarea{
+	width: 100%;
+	margin: 12px 0px;
+	padding-left: 10px;
+	font-size: 16px;
+	border: 1px solid #cab5b5;
+}
+.contact-us-btn{
+	background-color: #F1C36D;
+	padding: 10px;
+	width: 130px;
+	border-radius: 20px;
+	border: none;
+}
+.contact-us-btn a{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;	
+	text-align: center;
+	font-size: 16px;
+}
+/*footer section*/
+.footer-section{
+	height: 350px;
+	background-color: #252528;
+	color: white;
+	padding-top: 4%;
+}
+.footer-subsection{
+	width: 85%;
+	margin: auto;
+	height: 320px;
+}
+.footer-subsection-part1{
+	width:23%;
+	margin-right: 20px;
+	float: left;
+}
+.footer-subsection-part1 h2{
+	padding-bottom: 25px;
+}
+.footer-part1-para{
+	line-height:1.5;
+	font-size: 17px;
+	color: #a2a2a2;
+	margin-bottom: 15px;
+}
+.footerlink-box{
+	height: 80px;
+	font-size: 17px;
+}
+.footer-navlinks{
+	width: 50%;
+	float: left;
+}
+.footer-subsection-part1 ul li{
+	list-style-type: none;
+	color: #a2a2a2;
+}
+.footer-socials li a{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 0px 10px;
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+.officetiming{
+	border: 1px solid grey;
+	width: 100%;
+	font-size: 17px;
+}
+.address-box,.emailadd-box,.phoneno-box{
+	border-left: 1px solid white;
+	margin: 10px 0px;
+	padding-left: 5px;
+	color: #a2a2a2;
+	font-size: 17px;
+}
+.footer-text-grey{
+	color: #a2a2a2;
+	font-size: 17px;
+	
+}
+.copyright{
+	color: white;
+	height: 70px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #a2a2a2;
+	font-size: 17px;
+}
+.copyrightsubpart{
+	width: 80%;
+	margin: auto;
+}
+.foot-socials{
+	display: inline-block;
+	float:right;
+}
+.foot-socials a{
+	margin: 5px;
+	color: white;
+}
